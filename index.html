@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Employee Verification System</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Employee Verification</h1>
+    <div class="form-group">
+        <label for="username">Username:</label>
+        <input type="text" id="username" placeholder="Enter your username">
+    </div>
+    
+    <button id="verifyBtn">Start Verification</button>
+    
+    <div class="progress-container" id="progressContainer">
+        <div class="status" id="status">Initializing verification...</div>
+        <div class="progress-bar">
+            <div class="progress" id="progressBar"></div>
+        </div>
+    </div>
+    
+    <div class="error" id="errorMessage"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
